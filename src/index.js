@@ -2,7 +2,7 @@ import "./index.scss"
 
 let square = document.getElementById("square");
 let articleWidth = document.querySelector('.article').getBoundingClientRect().width;
-rAF = window.requestAnimationFrame;
+let rAF = window.requestAnimationFrame;
 let animationRequest, count;
 let start = null;
 let path = articleWidth - 75;
